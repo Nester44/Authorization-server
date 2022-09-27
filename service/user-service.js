@@ -1,5 +1,5 @@
 const UserModel = require('../models/user-model')
-const bcrypt = require('bcrypt')
+const bcrypt = require('bcryptjs')
 const tokenService = require('./token-service')
 const UserDto = require('../dtos/user-dto')
 const ApiError = require('../exceptions/api-error')
